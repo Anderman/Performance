@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22803.0
+VisualStudioVersion = 14.0.24711.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{39290E57-4492-4F65-89D6-64C95DE73976}"
 EndProject
@@ -27,6 +27,12 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNet.Tests.Performance", "test\Microsoft.AspNet.Tests.Performance\Microsoft.AspNet.Tests.Performance.xproj", "{76C8FD9D-615A-4741-8E03-A11F7C20A99F}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNet.Tests.Performance.Utility", "test\Microsoft.AspNet.Tests.Performance.Utility\Microsoft.AspNet.Tests.Performance.Utility.xproj", "{818A78F9-44DD-4A36-B44C-0F743DFE0E19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microbenchmarks", "microbenchmarks", "{437B8A92-AB2C-4942-98F1-A5E796403534}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microbenchmarks.Tests", "microbenchmarks\Microbenchmarks.Tests\Microbenchmarks.Tests.xproj", "{9B73D4A3-CA9D-4396-8000-F69E9B0EB9D3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Benchmarks.Framework", "microbenchmarks\Benchmarks.Framework\Benchmarks.Framework.xproj", "{488D79ED-7138-4CCB-9A9F-458FA4A076A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +72,14 @@ Global
 		{818A78F9-44DD-4A36-B44C-0F743DFE0E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{818A78F9-44DD-4A36-B44C-0F743DFE0E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{818A78F9-44DD-4A36-B44C-0F743DFE0E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B73D4A3-CA9D-4396-8000-F69E9B0EB9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B73D4A3-CA9D-4396-8000-F69E9B0EB9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B73D4A3-CA9D-4396-8000-F69E9B0EB9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B73D4A3-CA9D-4396-8000-F69E9B0EB9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488D79ED-7138-4CCB-9A9F-458FA4A076A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488D79ED-7138-4CCB-9A9F-458FA4A076A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488D79ED-7138-4CCB-9A9F-458FA4A076A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488D79ED-7138-4CCB-9A9F-458FA4A076A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,5 +93,7 @@ Global
 		{044663C3-FDF8-4F75-B756-31D218204ACF} = {93AB896C-D117-4DBB-9DB1-24903022E21B}
 		{76C8FD9D-615A-4741-8E03-A11F7C20A99F} = {39290E57-4492-4F65-89D6-64C95DE73976}
 		{818A78F9-44DD-4A36-B44C-0F743DFE0E19} = {39290E57-4492-4F65-89D6-64C95DE73976}
+		{9B73D4A3-CA9D-4396-8000-F69E9B0EB9D3} = {437B8A92-AB2C-4942-98F1-A5E796403534}
+		{488D79ED-7138-4CCB-9A9F-458FA4A076A8} = {437B8A92-AB2C-4942-98F1-A5E796403534}
 	EndGlobalSection
 EndGlobal
